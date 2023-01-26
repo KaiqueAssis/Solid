@@ -7,8 +7,6 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        Circle cr;
-        Rectangle rc;
         List<Shape> list = new ArrayList<>();
 
         System.out.print("Digite a quantidade de figuras?");
@@ -16,7 +14,7 @@ public class App {
 
         for (int i=1; i<=n; i++ ){
             System.out.println("A figura "+ i + " tem ");
-            System.out.print("Rentangulo ou Circulo? (r/c");
+            System.out.print("Rentangulo ou Circulo? (r/c)");
             char ch = sc.next().charAt(0);
             System.out.println("Escolha a cor que você da sua figura.");
             String color = sc.next();
