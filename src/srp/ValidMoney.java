@@ -1,6 +1,6 @@
 package srp;
 
-public class validMoney {
+public class ValidMoney {
 
     Account ac = new Account();
     public void valid(double x, double y) {

@@ -1,11 +1,13 @@
 package isp;
 
-public class clienteVip implements IClasseClienteVip{
+import isp.interfaces.IClasseClienteVip;
+
+public class ClienteVip implements IClasseClienteVip {
 
     private String name, cpf, data;
     private double buy;
 
-    public clienteVip(String name,String cpf, String databirth, double valueLastBuy) {
+    public ClienteVip(String name, String cpf, String databirth, double valueLastBuy) {
         this.name = name;
         this.cpf = cpf;
         this.data = databirth;

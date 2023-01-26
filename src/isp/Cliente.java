@@ -1,12 +1,14 @@
 package isp;
 
-public class cliente implements iClasseCliente{
+import isp.interfaces.IClasseCliente;
+
+public class Cliente implements IClasseCliente {
     private String name, cpf, data;
     private double buy;
 
 
 
-    public cliente(String name,String cpf, String databirth, double valueLastBuy) {
+    public Cliente(String name, String cpf, String databirth, double valueLastBuy) {
         this.name = name;
         this.cpf = cpf;
         this.data = databirth;
@@ -27,7 +29,7 @@ public class cliente implements iClasseCliente{
     @Override
     public String nextBuyDiscount() {
         if(buy > 1000){
-            System.out.println("O cliente tem 10% por conta da sua ultima compra");
+            System.out.println("O Cliente tem 10% por conta da sua ultima compra");
         } else {
             System.out.println("Tente compra mais algumas coisas na próxima.");
         }

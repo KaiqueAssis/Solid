@@ -1,6 +1,6 @@
 package srp;
 
-public class validAccount {
+public class ValidAccount {
 
     public void validAccount(String x, int y) {
         if(x.equals("José") && y == 1000){

@@ -2,7 +2,7 @@
 
 ### Utilizando o principio da responsabilidade única.
 
- Fiz um mini projeto de saque e deposito para utilizar o principio do SRP.(Uma classe deve ter um, e somente um, motivo para mudar. Uma classe tem que ser especializada apenas em uma coisa.)
+ Fiz um mini projeto de saque e deposito para utilizar o principio do SRP.(Uma classe deve ter um, e somente um, motivo para mudada. Uma classe tem que ser especializada apenas em uma coisa.)
  Dividi o projeto em 4 classes fora o App, onde eu testei as classes aclopadas:
 
 ## As classes são:

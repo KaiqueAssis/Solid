@@ -1,8 +1,9 @@
-package isp;
+package isp.interfaces;
 
-public interface iClasseCliente {
-
+public interface IClasseClienteVip {
     public String acessData();
+
+
 
     public String nextBuyDiscount();
 }

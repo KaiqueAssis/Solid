@@ -1,6 +1,6 @@
 package srp;
 
-public class statesAccount {
+public class StatesAccount {
 
     public void state(String name, int Account, double balance){
         System.out.println("Nome da Conta: "

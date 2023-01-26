@@ -8,9 +8,9 @@ public class App {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
         Account ac = new Account();
-        validMoney vm = new validMoney();
-        validAccount vc = new validAccount();
-        statesAccount sa = new statesAccount();
+        ValidMoney vm = new ValidMoney();
+        ValidAccount vc = new ValidAccount();
+        StatesAccount sa = new StatesAccount();
 
         // Digite o número "1000" para passar na verificação.
         System.out.println("Digite o numero para criar a sua conta.");
