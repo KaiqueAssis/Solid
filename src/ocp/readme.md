@@ -1,6 +1,6 @@
 # Exemplo 2 
 
-### Utiizando o Open/Close.()
+### Utiizando o Open/Close.(O código tem que estar fechar para modificações, mas aberto para extensões.)
 
 Projeto sobre o calculo da área de figuras. O exemplo compõe 1 classe abstrata que passa a herança para outras 2 classes, Rectangle e Circle.
 Caso o dev queira criar mais alguma classe para calcular a área de alguma outra figura, é necessário apenas que após criar a outra classe modificar o main acrescentando mais um if.
