@@ -1,8 +1,7 @@
 package isp;
 
 import isp.interfaces.IClasseCliente;
-
-public class Cliente implements IClasseCliente {
+public class Cliente implements IClasseCliente{
     private String name, cpf, data;
     private double buy;
 
