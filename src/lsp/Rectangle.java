@@ -12,13 +12,6 @@ public class Rectangle extends Shape {
     public Rectangle() {
     }
 
-    public double getHeight() {
-        return height;
-    }
-
-    public double getWeight() {
-        return width;
-    }
 
 
     @Override

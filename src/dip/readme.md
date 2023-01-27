@@ -8,7 +8,7 @@
 ### Contexto do Projeto.
     Programa feito para pessoas que querem aplicar regras diferentes de aluguel, caso tenham mais de um imóvel.
 
-### Explicação do código seguindo a dip.
+### Explicação do Projeto.
     
     O Projeto tem como pricipal arquivo a Interface Aluguel:
 

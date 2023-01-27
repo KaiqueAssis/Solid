@@ -2,7 +2,6 @@ package srp;
 
 public class ValidMoney {
 
-    Account ac = new Account();
     public void valid(double x, double y) {
         if (x >= y) {
             System.out.println("Processando...");
